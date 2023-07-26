@@ -108,12 +108,12 @@ link = Entry(janelaYT, font = 'arial 16 bold', width = 30)
 link.grid(row = 0, column = 1, padx = 1, pady = 20)
 
 #Config Imagem: Arte do YouTube e Python
-photoYTP = PhotoImage(file = r"C:/Users/CaiqueSF/Documentos/PROJETOS/Programação em Python/ProjetosPython/YTD_Files/Python_YouTube.png").subsample(15, 15)
+photoYTP = PhotoImage(file = r"C:/Users/CaiqueSF/ProjetosPortfolio/YTD_Files/Python_YouTube.png").subsample(15, 15)
 Label(janelaYT, image = photoYTP).grid(row = 0, column = 2)
 
 ########################################## LINHA '1' ##########################################
 #Config Imagem: Download no botao
-photoDW = PhotoImage(file = r"C:/Users/CaiqueSF/Documentos/PROJETOS/Programação em Python/ProjetosPython/YTD_Files/download.png").subsample(15, 15)
+photoDW = PhotoImage(file = r"C:/Users/CaiqueSF/ProjetosPortfolio/YTD_Files/download.png").subsample(15, 15)
 
 #Config BOTÃO MÚSICA MP3: PARA INICAR O DOWNLOAD
 bt1 = Button(janelaYT, bg = 'blue', text = ' MÚSICA MP3 ', font = 'arial 12 bold', command = lambda: musica(link.get()), image = photoDW, compound = BOTTOM)
